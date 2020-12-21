@@ -1,1 +1,4 @@
-https://guides.getcandy.io/ https://api-docs.getcandy.io/
+# Netlify Redirects
+
+## Redirect old Guides to new API Docs
+https://guides.getcandy.io/* https://api-docs.getcandy.io/:splat 301!
