@@ -85,7 +85,7 @@ public function boot()
     $this->routes(function () {
         GetCandy::router([
             'prefix' => 'api/v1',
-           'template' => 'santum',
+           'template' => 'sanctum',
         ]);
         // ...
      });
